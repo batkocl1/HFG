@@ -160,6 +160,7 @@ $(window).on("resize", function () {
             marker.bindPopup(marker.toGeoJSON().properties.timePeriod +
                 marker.toGeoJSON().properties.siteName + '<br><br> ' +
                 marker.toGeoJSON().properties.image + ' <img src=" "> ' +
+                marker.toGeoJSON().properties.credit + '  ' +
                 marker.toGeoJSON().properties.link, {autoPanPadding: [5,55]});
         });
     })
