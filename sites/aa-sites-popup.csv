@@ -1,2 +1,2 @@
-lat,lon,timePeriod,siteName,info,link
--27.533300, 24.785600,<h4>Taung Site in South Africa</h4>,<h3><i>Australopithecus africanus</i></h3>,"here is a short blurb about this or maybe a photo",<a href="sites/africanus.html">MORE DETAILS</a>
+lat,lon,timePeriod,siteName,image,link
+-27.533300, 24.785600,<h4>Taung Site in South Africa</h4>,<h3><i>Australopithecus africanus</i></h3>,<img src="http://classwiki.matrix.msu.edu/images/6/61/Gebel.jpeg">,<a href="sites/africanus.html">MORE DETAILS</a>
