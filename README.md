@@ -5,7 +5,9 @@ Hominid Fossil Guide
 
 http://batkocl1.github.io/HFG
 
-here is the credit
+This is a an edited fork of the Digital Atlas of Egyptian Archaeology which was created through Matrix (description below).
+
+I would like to thank Dr. Ethan Watrall and Brian Geyer for their guidance through the original assignment, and Brian for his additional guidance in creating this adaptation that I have titled the Hominid Fossil Guide. The Digital Atlas of Egyptian Archaeology is part of a larger effort, but Ethan and Brian were major actors in its success. The Hominid Fossil Guide serves as an interactive map of human evolution using the type specimens of each hominid species. All the information on the species pages was taken from information provided in lectures by Dr. Joseph Hefner in ANP 440 - SS15. I edited files in the DAEA fork to accomplish the goals of this project.  
 
 <br>
 <hr>
