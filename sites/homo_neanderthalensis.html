@@ -1,0 +1,111 @@
+<html lang="en"><script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Hominid Fossil Guide</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/leaflet.css" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="js/ie10-viewport-bug-workaround.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+  <body>
+
+    <!-- Begin page content -->
+
+
+      
+     <div id="detail">
+      <h1><i>Homo neanderthalensis</i></h1>
+      <br>
+      <h3> TYPE SPECIMEN </h3>
+      <br>
+    
+		 <hr>
+		 <img src="http://upload.wikimedia.org/wikipedia/commons/d/dd/OH_7_replica_01.JPG" width="100%">
+		 <br>
+		 <figcaption>Image Source: <a href="http://upload.wikimedia.org/wikipedia/commons/d/dd/OH_7_replica_01.JPG" target="_blank">http://upload.wikimedia.org/wikipedia/commons/d/dd/OH_7_replica_01.JPG</a></figcaption>
+		 <br>
+		 
+	<h3>Name/Nickname</h3>
+	<hr>
+	<p> OH-7 or "Jonny's Child" </p>
+	<br>
+	<h3>Discovery</h3>
+	<hr>
+	<p> 1960 by Jonathan Leakey </p>
+	<br>
+	<h3>Site</h3>
+	<hr>
+	<p> Olduvai Gorge (Bed 1, FLK-NN) - Tanzania  </p>
+	<br>
+	<h3>Time of Existence</h3>
+	<hr>
+	<p> 1.75 mya </p>
+	<br>
+	<h3>Paleoenvironment</h3>
+	<hr>
+	<p> Predominantly grassland environment </p>
+	<br>
+	<h3>Primitive Traits</h3>
+	<hr>
+	<p> large anterior teeth, large canines, long arms, moderately-prognathic face, short legs, prominent brow ridge, slightly curved finger bones </p>
+	<br>
+	<h3>Derived Traits</h3>
+	<hr>
+	<p> retreating chin region, larger cranial capacity, smaller teeth and face than australopiths, rounded jaw, reduced prognathism </p>
+	<br>
+
+	</div>
+     
+       <br>
+         <br>
+
+    <div class="footer2">
+      <div class="container">
+        <!--*<p class="text-muted">Place sticky footer content here.</p>-->
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="leaflet-omnivore-master/leaflet-omnivore.js"></script>
+    <script src="js/leaflet.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("a[rel=citation]").popover({
+				placement : 'top'
+			}).click(function (p) {
+				p.preventDefault();
+				var $self = $(this);
+				setTimeout(function () {
+					$self.popover('hide');
+				}, 4000);
+			});
+		});
+	</script>
+	</body></html>
